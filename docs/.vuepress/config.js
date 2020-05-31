@@ -39,14 +39,13 @@ module.exports = {
         {
           text: '了解更多',
           items: [
-              { text: '框架', link: 'https://github.com/douyu/jupiter' },
-              { text: '管理平台', link: 'https://github.com/douyu/juno' },
+              { text: '微服务管理平台', link: 'https://github.com/douyu/juno' },
           ]
         },
 
       ],
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: 'https://github.com/douyu/jupiter-website',
+        repo: 'https://github.com/douyu/jupiter',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
         // repoLabel: '查看源码',

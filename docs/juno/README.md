@@ -39,17 +39,19 @@ tar -zxvf juno.tar.gz
 
 ### 初始化和启动
 
+[参考配置](https://github.com/douyu/juno/blob/master/build/config/admin.toml)
+
 ```bash
 cd juno
 
 # 安装数据库
-./bin/juno install
+./bin/install --config=./参考配置
 
 # 启动juno后台
-./bin/juno start
+./bin/juno --config=./参考配置
 
 # 启动juno的agent
-./bin/juno-agent start
+./bin/juno-agent --config=./参考配置
 
 ```
 

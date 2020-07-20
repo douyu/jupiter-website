@@ -222,6 +222,7 @@ module.exports = {
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
                         '/juno/12.1apiauth',
+                        '/juno/12.2openapi',
                     ]
                 },
 

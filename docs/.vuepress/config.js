@@ -133,6 +133,7 @@ module.exports = {
                         '/juno/1.1quickstart',
                         '/juno/1.2install',
                         '/juno/1.3quickuse',
+                        '/juno/1.4参与开发',
                     ]
                 },
                 {

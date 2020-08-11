@@ -131,9 +131,9 @@ module.exports = {
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
                         '/juno/1.1quickstart',
-                        '/juno/1.2install',
-                        '/juno/1.3quickuse',
-                        '/juno/1.4contribution',
+                        '/juno/1.2install_docker',
+                        '/juno/1.3install_binary',
+                        '/juno/1.4quickuse',
                     ]
                 },
                 {

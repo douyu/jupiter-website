@@ -186,7 +186,8 @@ module.exports = {
                     title: '第八章 测试平台',
                     collapsable: false, // 可选的, 默认值是 true,
                     children: [
-                        '/juno/8.1test',
+                        '/juno/8.1grpc_test',
+                        '/juno/8.2http_test',
                     ]
                 },
                 {

@@ -138,7 +138,9 @@ module.exports = {
                         '/juno/1.1quickstart',
                         '/juno/1.2install_docker',
                         '/juno/1.3install_binary',
-                        '/juno/1.4quickuse',
+                        '/juno/1.4install_docker_compose',
+                        '/juno/1.5quickuse',
+                        '/juno/1.6contribution',
                     ]
                 },
                 {

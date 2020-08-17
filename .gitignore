@@ -1,6 +1,7 @@
 node_modules
 .idea
 package-lock.json
+yarn.lock
 .vuepress/dist
 docs/.vuepress/dist/*
 jupiter-website.tar.gz

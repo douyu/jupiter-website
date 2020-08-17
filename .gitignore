@@ -4,3 +4,4 @@ package-lock.json
 .vuepress/dist
 docs/.vuepress/dist/*
 jupiter-website.tar.gz
+yarn.lock

@@ -99,6 +99,9 @@ module.exports = {
                         '/jupiter/4.2clientgrpc',
                         '/jupiter/4.3clientgorm',
                         '/jupiter/4.4clientredis',
+                        '/jupiter/4.5mongodb',
+                        '/jupiter/4.6rocketmq',
+                        '/jupiter/4.7sentinel',
                     ]
                 },
                 {
@@ -120,6 +123,9 @@ module.exports = {
                         '/jupiter/6.6clientgrpc',
                         '/jupiter/6.7clientgorm',
                         '/jupiter/6.8clientredis',
+                        '/jupiter/6.9mongodb',
+                        '/jupiter/6.10rocketmq',
+                        '/jupiter/6.11sentinel',
                     ]
                 },
                 {

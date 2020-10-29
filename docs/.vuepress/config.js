@@ -231,7 +231,7 @@ module.exports = {
         {
           title: "第十三章 系统设置",
           collapsable: false, // 可选的, 默认值是 true,
-          children: ["/juno/13.1system_setting"],
+          children: ["/juno/13.1system_setting", "/juno/13.2junoevent.md"],
         },
       ],
       "/awesome/": [

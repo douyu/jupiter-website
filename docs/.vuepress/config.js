@@ -233,6 +233,11 @@ module.exports = {
           collapsable: false, // 可选的, 默认值是 true,
           children: ["/juno/13.1system_setting", "/juno/13.2junoevent.md"],
         },
+        {
+          title: "第十四章 操作统计",
+          collapsable: false, // 可选的, 默认值是 true,
+          children: ["/juno/14.1statistics"],
+        },
       ],
       "/awesome/": [
         {

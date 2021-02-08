@@ -111,6 +111,7 @@ module.exports = {
             "/jupiter/4.5mongodb",
             "/jupiter/4.6rocketmq",
             "/jupiter/4.7sentinel",
+            "/jupiter/4.8trace",
           ],
         },
         {

@@ -25,11 +25,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      # 进入到生成目录，并初始化git
+      - name: init git
+        run:
+          git config --local user.email "821466754@qq.com"
+
+          git config --local user.name "B15030328"
+
       - name: Build and Deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: B15030328/jupiter-website
           TARGET_BRANCH: pages
-          BUILD_SCRIPT: npm install vuepress && npm run docs:build
+          BUILD_SCRIPT: vuepress build docs
           BUILD_DIR: docs/.vuepress/dist/

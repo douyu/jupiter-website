@@ -38,5 +38,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: B15030328/jupiter-website
           TARGET_BRANCH: pages
-          BUILD_SCRIPT: npm run docs:build
+          BUILD_SCRIPT: npm install vuepress && npm run docs:build
           BUILD_DIR: docs/.vuepress/dist/

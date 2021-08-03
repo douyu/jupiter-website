@@ -1,6 +1,6 @@
 const moment = require("moment");
 module.exports = {
-  base: "/jupiter-website/",
+  base: "/",
   title: "Jupiter",
   description: "Governance-oriented Microservice Framework",
   head: [

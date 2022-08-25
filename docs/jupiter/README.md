@@ -34,12 +34,12 @@ Jupiter 是斗鱼开源的一套微服务治理框架，提供丰富的后台功
 
 ## 快速开始
 
-要求 Go version>=1.13 and GO111MODULE=on
+要求 Go version>=1.16 and GO111MODULE=on
 
 ## 安装
 
 ```bash
-go get -u github.com/douyu/jupiter/tools/jupiter
+GOPROXY=https://goproxy.cn/,direct go install github.com/douyu/jupiter/tools/jupiter@latest
 cd /path/to/workspace
 jupiter new jupiter-demo
 ```

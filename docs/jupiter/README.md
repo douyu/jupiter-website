@@ -39,7 +39,7 @@ Jupiter 是斗鱼开源的一套微服务治理框架，提供丰富的后台功
 ## 安装
 
 ```bash
-GOPROXY=https://goproxy.cn/,direct go install github.com/douyu/jupiter/tools/jupiter@latest
+GOPROXY=https://goproxy.cn/,direct go install github.com/douyu/jupiter/cmd/jupiter@latest
 cd /path/to/workspace
 jupiter new jupiter-demo
 ```
